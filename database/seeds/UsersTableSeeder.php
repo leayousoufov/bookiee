@@ -26,7 +26,6 @@ class UsersTableSeeder extends Seeder
                     'last_name'  => 'Organa',
                     'username'   => 'loregano',
                     'email'      => 'loregano@galaxyfarfaraway.net',
-                    'occupation' => 'Rebel',
                     'password'   => $generic_password,
                 ],
                 [
@@ -34,7 +33,6 @@ class UsersTableSeeder extends Seeder
                     'last_name'  => 'Skywalker',
                     'username'   => 'lskywalker',
                     'email'      => 'lskywalker@galaxyfarfaraway.net',
-                    'occupation' => 'Jedi Master',
                     'password'   => $generic_password,
                 ],
                 [
@@ -42,7 +40,6 @@ class UsersTableSeeder extends Seeder
                     'last_name'  => 'Solo',
                     'username'   => 'solocup',
                     'email'      => 'solocup@galaxyfarfaraway.net',
-                    'occupation' => 'Smuggler',
                     'password'   => $generic_password,
                 ],
                 [
@@ -50,7 +47,6 @@ class UsersTableSeeder extends Seeder
                     'last_name'  => '',
                     'username'   => 'chewonthis',
                     'email'      => 'chewonthis@galaxyfarfaraway.net',
-                    'occupation' => 'First Officer',
                     'password'   => $generic_password,
                 ],
                 [
@@ -58,7 +54,6 @@ class UsersTableSeeder extends Seeder
                     'last_name'  => '',
                     'username'   => 'artoo',
                     'email'      => 'artoo@galaxyfarfaraway.net',
-                    'occupation' => 'Rebel Spy',
                     'password'   => $generic_password,
                 ],
                 [
@@ -66,7 +61,6 @@ class UsersTableSeeder extends Seeder
                     'last_name'  => '',
                     'username'   => 'threepo',
                     'email'      => 'threepo@galaxyfarfaraway.net',
-                    'occupation' => 'Droid',
                     'password'   => $generic_password,
                 ],
                 [
@@ -74,7 +68,6 @@ class UsersTableSeeder extends Seeder
                     'last_name'  => 'Vader',
                     'username'   => 'lilorphanannie',
                     'email'      => 'lilorphanannie@galaxyfarfaraway.net',
-                    'occupation' => 'Sith Lord',
                     'password'   => $generic_password,
                 ],
             ];
