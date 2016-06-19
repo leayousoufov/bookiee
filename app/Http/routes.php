@@ -13,3 +13,6 @@
 
 Route::get('users', 'UserController@index');
 
+Route::get('friends', 'FriendController@index');
+
+
