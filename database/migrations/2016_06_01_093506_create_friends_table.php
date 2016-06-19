@@ -14,7 +14,10 @@ class CreateFriendsTable extends Migration
     {
         Schema::create('friends', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id');
+            $table->integer('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users');
+            $table->integer('friend_id')->unsigned();
+            $table->foreign('friend_id')->references('id')->on('users');
             $table->timestamps();
         });
     }
@@ -26,6 +29,6 @@ class CreateFriendsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('friends');
+        Schema::dropIfExists('friends');
     }
 }

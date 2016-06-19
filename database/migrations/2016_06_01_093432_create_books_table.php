@@ -12,7 +12,16 @@ class CreateBooksTable extends Migration
      */
     public function up()
     {
-        //
+        // @TODO add more columns
+        Schema::create('books', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('title');
+            $table->string('author');
+            $table->integer('pages');
+            $table->integer('words');
+            $table->date('published_at');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -22,6 +31,6 @@ class CreateBooksTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('books');
     }
 }
